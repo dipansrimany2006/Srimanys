@@ -1,0 +1,23 @@
+.OfferCard{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+    width: 80%;
+    .small-text{
+        font-size: 1.4rem;
+        padding: 1.2rem 1.2rem;
+    }
+    .big-text{
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+    }
+    .middle-text{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+}

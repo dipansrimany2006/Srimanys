@@ -1,0 +1,76 @@
+.header{
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+    background-color: transparent;
+    .left{
+        margin-left: 5vw;
+        cursor: pointer;
+    }
+    .center{
+        ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        margin-right: 25vw;
+        li{
+            cursor: pointer;
+        }
+        }
+    }
+    .right{
+        padding-right: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1vw;
+        input,textarea{
+            font-family: "Raleway", sans-serif;
+            padding: 0.6rem;
+            padding-left: 20px;
+            border: 1px #fff solid;
+    border-radius: 50px;
+            outline: none;
+        }
+        input::placeholder{
+            color: #000;
+            font-family: "Raleway", sans-serif;
+        }
+        
+        svg{
+            cursor: pointer;
+        }
+        .cart-icon{
+            position: relative;
+            span{
+                font-size: 1rem;
+                text-align: center;
+                background-color: blueviolet;
+                color: #fff;
+                padding: 2px 6px 4px 7px;
+                position: absolute;
+                top: -12px;
+                right:-10px;
+                line-height: 1;
+                border-radius: 20px;
+            }
+        }
+    }
+    &.sticky-header{
+        color: #fff;
+        background-color: black;
+        transition: 0.25s;
+    }
+}

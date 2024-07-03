@@ -1,0 +1,63 @@
+.singleProductMainContent {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  .singleProductPage {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    .left {
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    .right{
+        .productName{
+            font-size: 1.5rem;
+            margin-bottom: 1.5vh;
+        }
+        .productPrice{
+            font-size: 1.3rem;
+            margin-bottom: 1.5vh;
+        }
+        .productDescription{
+            font-size: 1.2rem;
+            margin-bottom: 1.5vh;
+        }
+        .quantityButton{
+            display: flex;
+            border: 1px black solid;
+            width: 6vw;
+            margin-bottom: 1.5vh;
+            :nth-child(1){
+                display: flex;
+                justify-content: center;
+                border-right: 1px black solid;
+                width: 2vw;
+            }
+            :nth-child(2){
+                display: flex;
+                justify-content: center;
+                width: 2vw;
+            }
+            :nth-child(3){
+                display: flex;
+                justify-content: center;
+                border-left: 1px black solid;
+                width: 2vw;
+            }
+        }
+        .add-to-cart-button{
+            display: flex;
+            gap: 1.1rem;
+            font-size: 1.2rem;
+            padding: 0.9rem;
+            border-radius: 9px;
+            background-color: blueviolet;
+            color: #fff;
+            border: none;
+        }
+    }
+  }
+}

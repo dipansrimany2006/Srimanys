@@ -1,0 +1,42 @@
+.hero {
+  height: 145vh;
+  display: flex;
+  position: relative;
+  z-index: 98;
+  .left {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 65vw;
+    .banner-text {
+      line-height: 1.2;
+      margin-left: 5vw;
+      margin-top: 20vh;
+      font-size: 8vw;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    img{
+        width: 89%;
+        height: 45%;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    background-color: #f3fdff;
+    gap: 4.5rem;
+    .ad{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    .offers{
+      font-size: 1.9rem;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 3.7rem;
+    }
+  }
+  }
+}
